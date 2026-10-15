@@ -16,6 +16,8 @@ the number peaks.
 
 ## Use
 
+On Windows, double-click `run_viewer.bat` (it runs `py viewer.py` in this folder). Packages stay installed, so there's no reinstalling.
+
 1. **Close the Arduino Serial Monitor** (only one program can use the port).
 2. Run `python viewer.py` (auto-picks the port), or name it:
    `python viewer.py COM5` (Windows) / `python viewer.py /dev/ttyUSB0` (Mac, Linux).
